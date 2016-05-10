@@ -1,0 +1,181 @@
+
+//
+// FONTS
+//
+
+
+/* text-font */
+// Alegreya Regular
+@font-face {
+  font-family: 'Alegreya';
+  src: url('fonts/Alegreya-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Alegreya-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Alegreya-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Alegreya-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Alegreya-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Alegreya-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Alegreya Italic
+@font-face {
+  font-family: 'Alegreya';
+  src: url('fonts/Alegreya-Italic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Alegreya-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Alegreya-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Alegreya-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Alegreya-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Alegreya-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: italic;
+}
+
+// Alegreya Bold
+@font-face {
+  font-family: 'Alegreya';
+  src: url('fonts/Alegreya-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Alegreya-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Alegreya-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Alegreya-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Alegreya-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Alegreya-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Alegreya Bold Italic
+@font-face {
+  font-family: 'Alegreya';
+  src: url('fonts/Alegreya-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Alegreya-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Alegreya-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Alegreya-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Alegreya-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Alegreya-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* display-font */
+// Alegreya SC Regular
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url('fonts/AlegreyaSC-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AlegreyaSC-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AlegreyaSC-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/AlegreyaSC-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/AlegreyaSC-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AlegreyaSC-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Alegreya SC Regular Italic
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url('fonts/AlegreyaSC-Italic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AlegreyaSC-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AlegreyaSC-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/AlegreyaSC-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/AlegreyaSC-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AlegreyaSC-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: italic;
+}
+
+// Alegreya SC Bold
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url('fonts/AlegreyaSC-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AlegreyaSC-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AlegreyaSC-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/AlegreyaSC-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/AlegreyaSC-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AlegreyaSC-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Alegreya SC Bold Italic
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url('fonts/AlegreyaSC-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AlegreyaSC-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AlegreyaSC-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/AlegreyaSC-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/AlegreyaSC-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AlegreyaSC-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* alt-font */
+// Alegreya Sans Light
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('fonts/AlegreyaSans-Light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AlegreyaSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AlegreyaSans-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/AlegreyaSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/AlegreyaSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AlegreyaSans-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Alegreya Sans Light Italic
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('fonts/AlegreyaSans-LightItalic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AlegreyaSans-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AlegreyaSans-LightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/AlegreyaSans-LightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/AlegreyaSans-LightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AlegreyaSans-LightItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: italic;
+}
+
+// Alegreya Sans Medium
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('fonts/AlegreyaSans-Medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AlegreyaSans-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AlegreyaSans-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/AlegreyaSans-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/AlegreyaSans-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AlegreyaSans-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Alegreya Sans Medium Italic
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('fonts/AlegreyaSans-MediumItalic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AlegreyaSans-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AlegreyaSans-MediumItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/AlegreyaSans-MediumItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/AlegreyaSans-MediumItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AlegreyaSans-MediumItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* monospace-font */
+// Liberation Mono Regular
+@font-face {
+  font-family: 'Liberation Mono';
+  src: url('fonts/LiberationMono-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/LiberationMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/LiberationMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/LiberationMono-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/LiberationMono-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/LiberationMono-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}

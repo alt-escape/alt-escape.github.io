@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "fonts";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,8 +19,8 @@ html {
 }
 
 body {
-	background: $white;
-  font: 16px/1.6 $text-font;
+	background: $bg-color;
+  font: 22px/1.8 $text-font;
   color: $text-color;
 }
 
@@ -32,48 +33,60 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $display-font;
-  color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.6;
   }
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 2em;
+  font-weight: bold;
+
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  padding: 1em 0 .5em;
+  font-size: 1.25em;
 }
 
 h3 {
-  font-size: 20px;
+  padding: 1em 0 .5em;
+  font-weight: bold;
 }
 
 h4 {
-  font-size: 18px;
-  color: $gray;
+  padding: 1em 0 .5em;
 }
 
 p {
-  margin: 15px 0;
-}
+  padding: 0 0 .5em;
+  font-size: 1em;
 
-a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
+  a {
+    padding: 0.2em 0;
+    border-bottom: 3px solid $light-color;
+    color: $text-color;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:visited {
+      color: $link-color--visited;
+    }
+
+    &:hover {
+      color: $link-color;
+      border-bottom: 3px solid $link-color;
+      background-color: $lightest-color;
+    }
+
+    &:active {
+      color: $link-color--active;
+      border-bottom: 3px solid $link-color--active;
+    }
   }
 }
 
@@ -116,18 +129,18 @@ img {
 }
 
 .date {
-  font-style: italic;
-  color: $gray;
+  font-family: $alt-font;
+  color: $medium-color;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $text-color;
+  background: $lighter-color;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $text-color;
+  background: $lighter-color;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -232,7 +245,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $link-color;
     }
   }
 }
@@ -275,7 +288,6 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
 }
 
 footer {
