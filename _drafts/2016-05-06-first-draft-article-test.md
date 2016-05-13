@@ -1,7 +1,8 @@
 ---
 layout: post
-title: First draft article test
 date: 2016-05-06 14:44
+title: Tarte aux rognons de sanglier et choux-rouges
+tags: 
 ---
 
 # Heading 1
