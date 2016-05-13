@@ -1,12 +1,14 @@
 html {
-  font-size: 100%;
+  font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   background: $bg-color;
-  font: 22px/1.8 $text-font;
+  font-family: $text-font;
+  font-size: 2.2rem;
+  line-height: 4rem;
   color: $text-color;
 }
 

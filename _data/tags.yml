@@ -1,3 +1,11 @@
-github-pages:
-  slug: github-pages
-  name: GitHub Pages
+# no capitals
+# separate words by dashes (-)
+
+vaisselle:
+  name: vaisselle
+
+animaux:
+  name: animaux
+
+bicarbonate-de-soude:
+  name: bicarbonate-de-soude
