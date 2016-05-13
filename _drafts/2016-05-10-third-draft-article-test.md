@@ -3,7 +3,7 @@ layout: post
 date: 2016-05-10 18:16
 last-edit: 
 title: Comment laver la vaisselle avec un raton-laveur?
-tags: [vaisselle, animaux, frotter, peta, jean-dujardin, monsanto-forever, tag]
+tags: [vaisselle, animaux, frotter, github-pages]
 ---
 
 # Ceci est un article de test
