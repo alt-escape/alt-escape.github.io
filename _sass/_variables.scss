@@ -1,17 +1,31 @@
 // Colors
 $bg-color: rgb(250,248,245);
 
+$text-color--light: rgb(120,110,110);
 $text-color: rgb(50,40,40);
+
 $link-color: rgb(0,110,230);
 $link-color--active: rgb(0,80,180);
 $link-color--visited: rgb(110,0,200);
-$quote-color: rgb(120,110,110);
 
-$lightest-color: rgb(240,238,235);
-$lighter-color: rgb(230,228,225);
-$light-color: rgb(220,218,215);
-$medium-color: rgb(180,178,175);
-$mediumDark-color: rgb(140,138,135);
+$lightest-color: 		rgb(240,238,235);
+$lighter-color: 		rgb(230,228,225);
+$light-color: 			rgb(220,218,215);
+$medium-color: 			rgb(180,178,175);
+$mediumDark-color: 	rgb(140,138,135);
+
+$highlight-color--light-grey: rgb(160,150,150);
+$highlight-color--grey: 			rgb(120,110,110);
+$highlight-color--dark-grey: 	rgb(80,70,70);
+$highlight-color--blue: 			#2e70b8;
+$highlight-color--purple: 		#7d2eb8;
+$highlight-color--pink: 			#bd2f93;
+$highlight-color--red: 				#d2353e;
+$highlight-color--orange: 		#d86b36;
+$highlight-color--yellow: 		#d8b236;
+$highlight-color--citrus: 		#aecb33;
+$highlight-color--green: 			#41bb2f;
+$highlight-color--turquoise: 	#2eb8b8;
 
 // Grays
 $black: #000;

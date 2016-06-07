@@ -3,7 +3,7 @@ layout: post
 date: 2016-05-10 18:16
 last-edit: 
 title: Comment laver la vaisselle avec un raton-laveur?
-tags: [vaisselle, animaux, bicarbonate-de-soude ]
+tags: [vaisselle, animaux, bicarbonate-de-soude]
 ---
 
 # Ceci est un article de test avec un très long titre de premier niveau pour tester le line-height des titres
@@ -20,7 +20,7 @@ Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, i
 
 Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. 
 
-> Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre en latin est que **l'opérateur sait [au premier coup d'oeil](http://www.google.com) que la page contenant ces lignes n'est pas valide**, et surtout l'attention du client n'est pas dérangée par le contenu, ***il demeure concentré*** seulement sur l'aspect graphique.
+> QUOTE: Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre en latin est que **l'opérateur sait [au premier coup d'oeil](http://www.google.com) que la page contenant ces lignes n'est pas valide**, et surtout l'attention du client n'est pas dérangée par le contenu, ***il demeure concentré*** seulement sur l'aspect graphique.
 
 ### Titre de 3ème niveau avec un très long titre de troisième niveau pour tester le line-height des titres et blablabla et bla bla bla bla bla bla
 
@@ -30,7 +30,20 @@ Ce texte a pour autre avantage d'utiliser des mots de longueur variable, [essaya
 
 ### Et un p’tit titre de 3ème niveau pour comparer
 
-```Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré seulement sur l'aspect graphique.```
+``` scss
+/* this is a multiline comment */
+// this is a one-line comment
+.hello {
+	background-color: rgba(235,22,89,.1);
+	margin: 0 0 1rem;
+}
+```
+``` html
+<a href="url">Link text</a> 
+<p>Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. </p>
+```
+
+L'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas ```dérangée``` par le contenu, il demeure concentré seulement sur l'aspect graphique.
 
 #### Titre de 4ème niveau
 

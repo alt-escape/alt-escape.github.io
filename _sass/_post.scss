@@ -123,10 +123,10 @@ strong, b {
 blockquote {
   padding: 1.6rem 0 .6rem 8rem;
   font-style: italic;
-  color: $quote-color;
+  color: $text-color--light;
 
   p a {
-    color: $quote-color;
+    color: $text-color--light;
   }
 }
 
