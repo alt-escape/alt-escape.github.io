@@ -1,18 +1,20 @@
 // Colors
-$bg-color: rgb(250,248,245);
+$bg-color: rgb(255,253,251);
 
-$text-color--light: rgb(120,110,110);
-$text-color: rgb(50,40,40);
+$text-color--lightest: rgb(140,130,130);
+$text-color--lighter: rgb(120,110,110);
+$text-color--light: rgb(80,70,70);
+$text-color: rgb(40,30,30);
 
 $link-color: rgb(0,110,230);
 $link-color--active: rgb(0,80,180);
 $link-color--visited: rgb(110,0,200);
 
-$lightest-color: 		rgb(240,238,235);
-$lighter-color: 		rgb(230,228,225);
-$light-color: 			rgb(220,218,215);
-$medium-color: 			rgb(180,178,175);
-$mediumDark-color: 	rgb(140,138,135);
+$lightest-color: 		rgb(240,240,240);
+$lighter-color: 		rgb(230,230,230);
+$light-color: 			rgb(220,220,220);
+$medium-color: 			rgb(180,180,180);
+$mediumDark-color: 	rgb(140,140,140);
 
 $highlight-color--light-grey: rgb(160,150,150);
 $highlight-color--grey: 			rgb(120,110,110);
@@ -40,10 +42,3 @@ $text-font: 'Alegreya', Georgia, serif;
 $display-font: 'Alegreya Sans SC', Georgia, serif;
 $alt-font: 'Alegreya Sans', Arial, sans-serif;
 $mono-font: 'Liberation Mono', monospace;
-
-// Breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}

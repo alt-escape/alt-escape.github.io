@@ -8,13 +8,30 @@ body {
   background: $bg-color;
   font-family: $text-font;
   font-size: 2.2rem;
-  line-height: 4rem;
+  line-height: 3.8rem;
   color: $text-color;
+
+  @include breakpoint-s {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  @include breakpoint-xs {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+  }
+  @include breakpoint-xxs {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 620px;
   padding: 0 10px;
   width: 100%;
+
+  @include breakpoint-m {
+    max-width: 560px;
+  }
 }

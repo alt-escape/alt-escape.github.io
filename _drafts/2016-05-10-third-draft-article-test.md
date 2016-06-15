@@ -45,6 +45,20 @@ Ce texte a pour autre avantage d'utiliser des mots de longueur variable, [essaya
 
 L'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas ```dérangée``` par le contenu, il demeure concentré seulement sur l'aspect graphique.
 
+Et voici une magnifique liste de choses: 
+
+1. Première chose
+2. Deuxième chose  
+	1. Première chose du 2e niveau
+	2. Deuxième chose du 2e niveau
+3. Troisème chose
+4. Quatrième chose
+	1. Première chose du 2e niveau
+	2. Deuxième chose du 2e niveau
+		1. Première chose du 3e niveau
+5. Cinquième chose
+6. Sixième chose
+
 #### Titre de 4ème niveau
 
 Il circule des centaines de versions différentes du *Lorem ipsum*, 
