@@ -1,22 +1,19 @@
 
 .highlight {
   background-color: $lightest-color;
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem;
   margin:	0 0 1rem;
   line-height: 1.2;
   overflow: auto;
 
   code {
-  	font-size: 1.6rem;
+  	font-size: 1.8rem;
   }
 }
 
 code {
-  padding: 0.6rem 0;
   background-color: $lightest-color;
   font-family: $mono-font;
-  font-size: 1.8rem;
-  letter-spacing: -0.6px;
 }
 
 .highlight .c { color: $highlight-color--light-grey } /* Comment */

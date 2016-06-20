@@ -1,9 +1,27 @@
 h1, h2, h3, h4, h5, h6 {
-  padding: 2.8rem 0 1.6rem;
   font-family: $display-font;
+  line-height: 1.4;
+  font-style: italic;
+  letter-spacing: -0.25px;
+
+}
+
+h1, h2 {
+  padding: 2.4rem 0 1.6rem;
 
   @include breakpoint-m {
-    padding: 2.4rem 0 1.2rem;
+    padding: 2rem 0 1.2rem;
+  }
+  @include breakpoint-xs {
+    padding: 1.6rem 0 0.8rem;
+  }
+}
+
+h3, h4, h5, h6 {
+  padding: 1.6rem 0 0.8rem;
+
+  @include breakpoint-m {
+    padding: 2rem 0 1.2rem;
   }
   @include breakpoint-xs {
     padding: 1.6rem 0 0.8rem;
@@ -11,8 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  padding: 0.5rem 0;
-  font-family: $alt-font;
+  padding: 0.4rem 0;
   color: $text-color;
   text-decoration: none;
   cursor: pointer;
@@ -29,9 +46,10 @@ a {
 }
 
 .post-title {
-  padding: 0;
-  font-size: 4rem;
-  line-height: 4.4rem;
+  padding: 0 0 1.6rem 0;
+  font-size: 4.8rem;
+  line-height: 1.4;
+  font-style: italic;
 
   @include breakpoint-xs {
     font-size: 3.2rem;
@@ -60,8 +78,7 @@ a {
 }
 
 h1 {
-  font-size: 2.8rem;
-  line-height: 3.2rem;
+  font-size: 3.2rem;
 
   @include breakpoint-s {
     font-size: 2.6rem;
@@ -78,47 +95,40 @@ h1 {
 }
 
 h2 {
-  font-size: 2.4rem;
-  line-height: 3rem;
+  font-size: 2.8rem;
 
   @include breakpoint-s {
     font-size: 2.2rem;
-    line-height: 2.8rem;
   }
   @include breakpoint-xs {
     font-size: 2rem;
-    line-height: 2.6rem;
   }
   @include breakpoint-xxs {
     font-size: 1.8rem;
-    line-height: 2.4rem;
   }
 }
 
-h3, h4 {
-  line-height: 2.8rem;
-
-  @include breakpoint-s {
-    line-height: 2.6rem;
-  }
-  @include breakpoint-xs {
-    line-height: 2.4rem;
-  }
-  @include breakpoint-xxs {
-    line-height: 2.2rem;
-  }
+h3 {
+  font-size: 2.6rem;
 }
 
 h4 {
-  font-style: italic;
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+}
+
+h6 {
+  font-size: 2rem;
 }
 
 p {
-  padding: 0 0 1rem;
+  padding: 0 0 0.8rem;
 
   a {
     padding: 0.4rem 0;
-    font-family: $alt-font;
     color: $text-color;
     text-decoration: none;
     border-bottom: 1px solid $medium-color;
@@ -219,7 +229,7 @@ strong, b {
 }
 
 blockquote {
-  padding: 1.6rem 0 0.8rem 4.8rem;
+  padding: 0.8rem 0 0.8rem 4.8rem;
   font-style: italic;
   color: $text-color--light;
 
@@ -269,7 +279,7 @@ img {
 
   a {
     margin: 0 0.5rem;
-    padding: 0.8rem 1rem 0.7rem;
+    padding: 0.8rem 1rem 1rem;
     font-family: $mono-font;
     font-size: 1.4rem;
     line-height: 4.2rem;
@@ -302,11 +312,11 @@ img {
 
 // Specify the color of the text selection
 ::-moz-selection {
-  color: $lightest-color;
+  color: white;
   background: $text-color;
 }
 ::selection {
-  color: $lightest-color;
+  color: white;
   background: $text-color;
 }
 

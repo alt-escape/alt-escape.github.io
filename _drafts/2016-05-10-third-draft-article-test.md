@@ -2,7 +2,7 @@
 layout: post
 date: 2016-05-10 18:16
 last-edit: 
-title: Comment laver la vaisselle avec un raton-laveur?
+title: Laver la vaisselle avec un raton-laveur
 tags: [vaisselle, animaux, bicarbonate-de-soude]
 ---
 
@@ -10,7 +10,7 @@ tags: [vaisselle, animaux, bicarbonate-de-soude]
 
 Voici un 3ème article de test pour les drafts. Le deuxième n'apparaissait pas dans le [site local](http://alt-escape.github.io) donc j'essaie d'en faire un troisième pour voir ce qu'il se passe.
 
-*Au passage j'ai enlevé le [paramètre](https://www.google.com) “published: false;” du 2ème draft pour qu'il apparaisse dans la liste des articles.*
+*Au passage j'ai enlevé le [paramètre](https://www.google.com) «published: false;» du 2ème draft pour qu'il apparaisse dans la liste des articles.*
 
 ## Avec un titre de 2ème niveau pour faire joli avec un très long titre de deuxième niveau pour tester le line-height des titres et blablabla et bla bla bla bla bla bla
 
@@ -58,6 +58,15 @@ Et voici une magnifique liste de choses:
 		1. Première chose du 3e niveau
 5. Cinquième chose
 6. Sixième chose
+
+- Première chose
+- Deuxième chose  
+	- Première chose du 2e niveau
+	- Deuxième chose du 2e niveau
+- Troisème chose
+	- Première chose du 2e niveau
+	- Deuxième chose du 2e niveau
+		- Première chose du 3e niveau
 
 #### Titre de 4ème niveau
 

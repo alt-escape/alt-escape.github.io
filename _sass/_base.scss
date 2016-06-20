@@ -1,5 +1,11 @@
 html {
   font-size: 62.5%;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "alt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -7,8 +13,8 @@ html {
 body {
   background: $bg-color;
   font-family: $text-font;
-  font-size: 2.2rem;
-  line-height: 3.8rem;
+  font-size: 2.1rem;
+  line-height: 1.6;
   color: $text-color;
 
   @include breakpoint-s {
@@ -17,7 +23,7 @@ body {
   }
   @include breakpoint-xs {
     font-size: 1.8rem;
-    line-height: 3.2rem;
+    line-height: 3.6rem;
   }
   @include breakpoint-xxs {
     font-size: 1.6rem;
