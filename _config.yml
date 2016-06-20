@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: alt+esc
+name: alt+escape
 
 # Short bio or description (displayed in the header)
 description: Des alternatives au quotidien
@@ -84,3 +84,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# List of the Collections for the navigation
+collections:
+- cuisine

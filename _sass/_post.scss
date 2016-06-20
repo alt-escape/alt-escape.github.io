@@ -1,55 +1,8 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: $display-font;
-  line-height: 1.4;
-  font-style: italic;
-  letter-spacing: -0.25px;
-
-}
-
-h1, h2 {
-  padding: 2.4rem 0 1.6rem;
-
-  @include breakpoint-m {
-    padding: 2rem 0 1.2rem;
-  }
-  @include breakpoint-xs {
-    padding: 1.6rem 0 0.8rem;
-  }
-}
-
-h3, h4, h5, h6 {
-  padding: 1.6rem 0 0.8rem;
-
-  @include breakpoint-m {
-    padding: 2rem 0 1.2rem;
-  }
-  @include breakpoint-xs {
-    padding: 1.6rem 0 0.8rem;
-  }
-}
-
-a {
-  padding: 0.4rem 0;
-  color: $text-color;
-  text-decoration: none;
-  cursor: pointer;
-
-  &:hover {
-    color: $link-color;
-    background-color: $lightest-color;
-  }
-
-  &:active {
-    color: $link-color--active;
-    background-color: $lighter-color;
-  }
-}
-
+/* Post title */
 .post-title {
-  padding: 0 0 1.6rem 0;
-  font-size: 4.8rem;
+  padding: 0;
+  font-size: 2.4rem;
   line-height: 1.4;
-  font-style: italic;
 
   @include breakpoint-xs {
     font-size: 3.2rem;
@@ -77,25 +30,33 @@ a {
   }
 }
 
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  padding: 1.6rem 0 0.8rem;
+  color: $text-color--lighter;
+  font-family: $display-font;
+  line-height: 1.4;
+  font-style: italic;
+  letter-spacing: -0.5px;
+
+}
+
 h1 {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
 
   @include breakpoint-s {
     font-size: 2.6rem;
-    line-height: 3rem;
   }
   @include breakpoint-xs {
     font-size: 2.4rem;
-    line-height: 2.8rem;
   }
   @include breakpoint-xxs {
     font-size: 2.2rem;
-    line-height: 2.6rem;
   }
 }
 
 h2 {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
 
   @include breakpoint-s {
     font-size: 2.2rem;
@@ -109,23 +70,55 @@ h2 {
 }
 
 h3 {
-  font-size: 2.6rem;
-}
-
-h4 {
-  font-size: 2.4rem;
-}
-
-h5 {
-  font-size: 2.2rem;
-}
-
-h6 {
   font-size: 2rem;
 }
 
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+}
+
+/* Paragraph */
 p {
   padding: 0 0 0.8rem;
+
+  @include breakpoint-s {
+    padding: 0.32rem 0;
+  }
+  @include breakpoint-xs {
+    padding: 0.24rem 0;
+  }
+  @include breakpoint-xxs {
+    padding: 0.16rem 0;
+  }
+}
+
+/* Links */
+a {
+  padding: 0.4rem 0;
+  color: $text-color;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: $link-color;
+    background-color: $lightest-color;
+  }
+
+  &:active {
+    color: $link-color--active;
+    background-color: $lighter-color;
+  }
+}
+
+p, li, ul, ol {
 
   a {
     padding: 0.4rem 0;
@@ -145,23 +138,14 @@ p {
       background-color: $lighter-color;
       border-bottom: 2px solid $link-color--active;
     }
-
-    @include breakpoint-s {
-      padding: 0.32rem 0;
-    }
-    @include breakpoint-xs {
-      padding: 0.24rem 0;
-    }
-    @include breakpoint-xxs {
-      padding: 0.16rem 0;
-    }
   }
 }
 
+/* Lists */
 ul, ol {
   margin: 0 0 0.8rem 0;
   padding-left: 4.8rem;
-  line-height: 3.2rem;
+  line-height: 1.6;
 
   @include breakpoint-s {
     margin: 0 0 0.6rem 0;
@@ -220,6 +204,7 @@ ul ul, ol ul {
   list-style-type: circle;
 }
 
+/* Modifiers */
 em, i {
   font-style: italic;
 }
@@ -228,6 +213,7 @@ strong, b {
   font-weight: bold;
 }
 
+/* Quotes */
 blockquote {
   padding: 0.8rem 0 0.8rem 4.8rem;
   font-style: italic;
@@ -248,9 +234,19 @@ blockquote {
   }
 }
 
+/* Images */
 img {
-  margin: 1.6rem 0 0.8rem;
   max-width: 100%;
+}
+
+// Images captions style
+img + em {
+  display: block;
+  padding: 0.4rem 0 0.8rem;
+  color: $text-color--lightest;
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-style: normal;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -258,13 +254,20 @@ img {
   max-width: none;
 }
 
-// Post Metadata
-.post-metadata {
-  margin: 2rem 0 0;
+/* Horizontal line */
+hr {
+  margin: 3.2rem 0 0;
+  border: 0;
+  border-bottom: 1px solid $medium-color;
 }
 
+/* Post Metadata */
+.post-metadata {
+  margin: 6.4rem 0 0;
+}
+
+// Post date
 .post-date {
-  margin: 1rem 0 0;
   font-size: 1.6rem;
   font-family: $mono-font;
   color: $medium-color;
@@ -274,6 +277,7 @@ img {
   }
 }
 
+// Post tags
 .post-tags {
   margin: 1rem 0 0;
 
@@ -283,19 +287,19 @@ img {
     font-family: $mono-font;
     font-size: 1.4rem;
     line-height: 4.2rem;
-    color: $medium-color;
+    color: $mediumDark-color;
     border: 1px solid $lighter-color;
-    border-radius: 0.2rem;
+    border-radius: 0.1rem;
     word-break: break-all;
 
     &:hover {
-      color: $mediumDark-color;
+      color: $dark-color;
       background-color: $light-color;
       border: 1px solid $light-color;
     }
 
     &:active {
-      color: $lightest-color;
+      color: white;
       background-color: $medium-color;
       border: 1px solid $medium-color;
     }
@@ -310,6 +314,7 @@ img {
   }
 }
 
+/* Text selection */
 // Specify the color of the text selection
 ::-moz-selection {
   color: white;

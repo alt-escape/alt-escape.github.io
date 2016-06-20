@@ -4,8 +4,11 @@
 vaisselle:
   name: vaisselle
 
-animaux:
-  name: animaux
+vinaigre:
+  name: vinaigre
 
 bicarbonate-de-soude:
   name: bicarbonate-de-soude
+
+animaux:
+  name: animaux

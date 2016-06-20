@@ -3,6 +3,7 @@ layout: post
 date: 2016-05-10 18:16
 last-edit: 
 title: Laver la vaisselle avec un raton-laveur
+collections: [cuisine]
 tags: [vaisselle, animaux, bicarbonate-de-soude]
 ---
 
@@ -17,6 +18,7 @@ Voici un 3ème article de test pour les drafts. Le deuxième n'apparaissait pas 
 Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre en latin est que **l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide**, et surtout l'attention du client n'est pas dérangée par le contenu, ***il demeure concentré*** seulement sur l'aspect graphique.
 
 ![Texte alternatif de l'image](/images/image_test.jpg "Texte de <tag> de l'image")
+*Voici la légende de l'image ci-dessus. C'est une très belle image qui donne toute sa splendeur à l'article.*
 
 Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. 
 

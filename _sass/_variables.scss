@@ -1,21 +1,25 @@
 // Colors
 $bg-color: rgb(255,253,251);
-
+// Text
 $text-color--lightest: rgb(140,130,130);
 $text-color--lighter: rgb(120,110,110);
 $text-color--light: rgb(80,70,70);
 $text-color: rgb(40,30,30);
-
+// Links
 $link-color: rgb(20,10,10);
 $link-color--active: rgb(0,0,0);
 $link-color--visited: rgb(110,0,200);
+// Shades
+$lightest-color: 			rgb(240,240,240);
+$lighter-color: 			rgb(230,230,230);
+$light-color: 				rgb(220,220,220);
+$medium-color: 				rgb(180,180,180);
+$mediumDark-color: 		rgb(140,140,140);
+$dark-color: 					rgb(80,80,80);
+$darker-color: 				rgb(60,60,60);
+$darkest-color: 			rgb(40,40,40);
 
-$lightest-color: 		rgb(240,240,240);
-$lighter-color: 		rgb(230,230,230);
-$light-color: 			rgb(220,220,220);
-$medium-color: 			rgb(180,180,180);
-$mediumDark-color: 	rgb(140,140,140);
-
+// Code highlights
 $highlight-color--light-grey: rgb(160,150,150);
 $highlight-color--grey: 			rgb(120,110,110);
 $highlight-color--dark-grey: 	rgb(80,70,70);
