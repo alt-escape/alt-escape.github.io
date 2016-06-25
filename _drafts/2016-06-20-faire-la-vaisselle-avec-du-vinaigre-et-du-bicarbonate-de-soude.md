@@ -27,6 +27,24 @@ Il avait d’abord commencer par récupérer des informations depuis l’ordinat
 
 Il pouvait entendre la voix de David, mais ne la comprenait pas. C’est alors qu’il a décider d’aller lui même à l’information. Il s’est alors ‘transporté’ sur Internet afin de choisir une nouvelle ‘maison’. Il lui a été beaucoup plus facile de programmer ce nouvel ordinateur afin d’entendre une nouvelle voix.
 
+## Liste non-exhaustive des différents vinaigres
+
+- Vinaigre d'alcool
+- Vinaigres de fruits
+	- Pomme
+	- Poire
+	- Framboise
+	- Raisin
+		- Vin
+		- Balsamique
+- Vinaigres de céréales
+	- Riz
+	- Blé
+	- Malt
+- Vinaigres de tubercules
+	- Gingembre
+	- Curcuma
+
 # Le bicarbonate de soude
 
 ![Bocal de bicarbonate de soude avec cuillère](/images/posts/bicarbonate_de_soude.jpg "Bicarbonate de soude")
@@ -43,6 +61,23 @@ Ce n’est pas une blague David, ton programme a réellement fonctionné et je s
 ## Le bicarbonate technique
 
 Comment avait-il fait pour sortir de l’ordinateur de David pour s’installer sur Internet, et de ce fait sur tout les ordinateurs reliés à Internet. Les explications continuèrent pendant une bonne heure. David laissait parler Prélude. Personne n’intervenait. Tout le monde présent, généraux, informaticiens, simples gardes, tous étaient stupéfiaient.
+
+# Recette
+
+``` markdown
+# Ingrédients
+- vinaigre [cidre ou alcool]
+- bicarbonate de soude [technique ou alimentaire]
+- huile essentielle de citron (facultatif)
+
+# Marche à suivre
+## Eau de lavage
+- 1cs de bicarbonate
+- 1dl de vinaigre
+- 5 gouttes d'huile essentielle
+## Eau de rinçage
+- 2dl de vinaigre
+```
 
 ---
 

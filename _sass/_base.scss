@@ -33,11 +33,22 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 620px;
-  padding: 0 10px;
+  padding: 0 1rem;
   width: 100%;
+}
+
+.container-masthead {
+  max-width: 60rem;
 
   @include breakpoint-m {
-    max-width: 560px;
+    max-width: 40rem;
+  }
+}
+
+.container-main {
+  max-width: 40rem;
+
+  @include breakpoint-m {
+    max-width: 35rem;
   }
 }

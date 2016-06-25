@@ -1,7 +1,7 @@
 .wrapper-masthead {
   margin-bottom: 2rem;
-  background-color: white;
-  border-bottom: 1px solid $lightest-color;
+  background-color: $darkest-color;
+  // border-bottom: 1px solid $lightest-color;
 }
 
 .masthead {
@@ -12,20 +12,21 @@
   }
 }
 
-.site-avatar {
+.site-info {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 50%;
 
-  @include breakpoint-s {
-    float: none;
-    display: block;
-    margin: 0 auto;
+  a {
+    cursor: pointer;
   }
 }
 
-.site-info {
+.site-avatar {
   float: left;
+  margin: 0 0.5rem 0 0;
+  padding: 0.125rem;
+  width: 40px;
+  height: 40px;
 
   @include breakpoint-s {
     float: none;
@@ -37,19 +38,23 @@
 .site-name {
   margin: 0;
   padding: 0;
-  cursor: pointer;
+  color: white;
   font-size: 1.125rem;
+  line-height: 1.2;
 }
 
 .site-description {
   margin: 0;
   padding: 0;
+  color: white;
   font-size: 1rem;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 nav {
   float: right;
+  color: white;
   font-size: 1rem;
 
   @include breakpoint-s {
@@ -59,5 +64,6 @@ nav {
 
   a {
     text-align: right;
+    color: white;
   }
 }

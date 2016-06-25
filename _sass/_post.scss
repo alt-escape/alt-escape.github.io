@@ -86,12 +86,12 @@ a {
 
   &:hover {
     color: $link-color;
-    background-color: $lightest-color;
+    background-color: $lighter-color;
   }
 
   &:active {
     color: $link-color--active;
-    background-color: $lighter-color;
+    background-color: $light-color;
   }
 }
 
@@ -118,24 +118,8 @@ p, li, ul, ol {
 /* Lists */
 ul, ol {
   margin: 0 0 0.5rem 0;
-  padding-left: 3rem;
+  padding-left: 2rem;
   line-height: 1.6;
-
-  @include breakpoint-s {
-    margin: 0 0 0.375rem 0;
-    padding-left: 2.75rem;
-    line-height: 2rem;
-  }
-  @include breakpoint-xs {
-    margin: 0 0 0.25rem 0;
-    padding-left: 2.375rem;
-    line-height: 1.75rem;
-  }
-  @include breakpoint-xxs {
-    margin: 0 0 0.125rem 0;
-    padding-left: 2rem;
-    line-height: 1.625rem;
-  }
 
   ul, ol {
     color: $text-color--light;
@@ -150,7 +134,7 @@ ul, ol {
   }
 
   li {
-    padding-top: 0.5rem;
+    padding-top: 0.25rem;
 
     @include breakpoint-xs {
       padding-top: 0.25rem;
@@ -174,10 +158,6 @@ ol ul, ul ol, ul ul, ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
-  list-style-type: circle;
-}
-
 /* Modifiers */
 em, i {
   font-style: italic;
@@ -197,6 +177,13 @@ blockquote {
   p {
     padding: 0;
   }
+}
+
+/* Code */
+code {
+  background-color: $lightest-color;
+  font-family: $mono-font;
+  font-size: 1.125rem;
 }
 
 /* Images */
@@ -247,21 +234,21 @@ hr {
     padding: 0.625rem 1rem 0.625rem;
     font-family: $mono-font;
     font-size: 0.875rem;
-    color: $mediumDark-color;
-    border: 1px solid $lighter-color;
-    border-radius: 0.125rem;
+    color: white;
+    background-color: $darkest-color;
+    border: none;
     word-break: break-all;
 
     &:hover {
-      color: $dark-color;
-      background-color: $light-color;
-      border: 1px solid $light-color;
+      color: $text-color;
+      background-color: $medium-color;
+      border: none;
     }
 
     &:active {
       color: white;
-      background-color: $medium-color;
-      border: 1px solid $medium-color;
+      background-color: $mediumDark-color;
+      border: none;
     }
 
     &:first-child {
