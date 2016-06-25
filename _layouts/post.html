@@ -17,10 +17,13 @@ layout: default
     {% assign tags_content = '' %}
 {% endif %}
 
-<!-- Post layout -->
+<!-- Post DOM -->
 <article class="post">
-  <h1 class="post-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
-  <p class="post-date">{{ page.date | date: "%e %B %Y" }} - {{ page.date | date: "%H:%M" }}</p>
+  <div class="post-header">
+    <h1 class="post-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
+    <h2 class="post-subtitle">{{ post.subtitle }}</h2>
+    <div class="post-date">{{ page.date | date: "%e %B %Y" }} - {{ page.date | date: "%H:%M" }}</div>
+  </div>
   <div class="entry">
     {{ content }}
   </div>

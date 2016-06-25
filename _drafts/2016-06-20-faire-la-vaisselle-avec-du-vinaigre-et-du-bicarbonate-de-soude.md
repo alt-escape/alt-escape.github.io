@@ -2,7 +2,8 @@
 layout: post
 date: 2016-06-20 10:48
 last-edit: 
-title: Faire la vaisselle avec du vinaigre et du bicarbonate de soude
+title: La vaisselle avec du vinaigre et du bicarbonate de soude
+subtitle: C'est facile, sain, écologique et économique
 categories: [cuisine]
 tags: [vaisselle, vinaigre, bicarbonate-de-soude]
 ---
@@ -14,7 +15,9 @@ Il avait d’abord commencé par récupérer des informations depuis l’ordinat
 ![Bouteille de vinaigre de cidre avec des pommes](/images/posts/vinaigre_de_cidre.jpg "Vinaigre de cidre")
 *Vinaigre de cidre - <a href="http://mangiarebuono.it/wp-content/uploads/2014/01/sidro.jpg" target="_blank">source</a>*
 
-L’ascenseur démarra tout seul après que la porte se soit fermée. Il descendait. Il n’arrêtait pas de descendre. Puis, il s’arrêta enfin. La porte s’ouvrit. Et David eut la stupeur de sa vie. Devant lui se déployait un complexe informatique. Une vingtaine de personnes se déplaçaient d’un poste à l’autre regardant au passage **les écrans géants muraux** situés au fond de la salle. Il y avait bien une cinquantaine d’ordinateurs, cinq écrans géants et, situé entre les écrans géants et les ordinateurs, une machinerie impressionnante.
+L’ascenseur démarra tout seul après que la porte se soit fermée. Il descendait. Il n’arrêtait pas de descendre. Puis, il s’arrêta enfin. La porte s’ouvrit. Et David eut la stupeur de sa vie. 
+
+Devant lui se déployait un [complexe informatique](http://www.google.com). Une vingtaine de personnes se déplaçaient d’un poste à l’autre regardant au passage ***les écrans géants muraux*** situés au fond de la salle. Il y avait bien une cinquantaine d’ordinateurs, cinq écrans géants et, situé entre les écrans géants et les ordinateurs, une machinerie impressionnante.
 
 ## Le vinaigre blanc
 

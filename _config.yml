@@ -9,7 +9,7 @@ name: alt+escape
 description: Des alternatives au quotidien
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar:
+avatar: ../images/AltEscape_Avatar.png
 
 #
 # Flags below are optional

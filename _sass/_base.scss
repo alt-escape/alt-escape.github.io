@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;
+  font-size: 100%; // 16px
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -13,7 +13,7 @@ html {
 body {
   background: $bg-color;
   font-family: $text-font;
-  font-size: 1.8rem;
+  font-size: 1.125rem; // 18
   line-height: 1.8;
   color: $text-color;
 

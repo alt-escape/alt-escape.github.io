@@ -1,12 +1,12 @@
 // Colors
-$bg-color: rgb(255,253,251);
+$bg-color: rgb(250,250,250);
 // Text
-$text-color--lightest: rgb(140,130,130);
-$text-color--lighter: rgb(120,110,110);
-$text-color--light: rgb(80,70,70);
-$text-color: rgb(40,30,30);
+$text-color--lightest: rgb(140,140,140);
+$text-color--lighter: rgb(120,120,120);
+$text-color--light: rgb(80,80,80);
+$text-color: rgb(40,40,40);
 // Links
-$link-color: rgb(20,10,10);
+$link-color: rgb(20,20,20);
 $link-color--active: rgb(0,0,0);
 $link-color--visited: rgb(110,0,200);
 // Shades
@@ -43,5 +43,5 @@ $white: #fff;
 
 // Fonts
 $text-font: 'Rubik', Arial, sans-serif;
-$display-font: 'Space Mono', Arial, sans-serif;
-$mono-font: 'Space Mono', monospace;
+$display-font: 'Rubik', Arial, sans-serif;
+$mono-font: 'Roboto Mono', monospace;

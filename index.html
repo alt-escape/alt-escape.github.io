@@ -2,15 +2,15 @@
 layout: default
 ---
 
+<!-- Index DOM -->
 <div class="index">
   {% for post in site.posts %}
     <article class="post">
-
-      <h1 class="post-title post-title--index"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="post-date post-date--index">
-        {{ post.date | date: "%e %B %Y" }} - {{ post.date | date: "%H:%M" }}
-      </div>
+    	<div class="post-header">
+	      <h1 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	      <h2 class="post-subtitle">{{ post.subtitle }}</h2>
+	      <div class="post-date">{{ post.date | date: "%e %B %Y" }} - {{ post.date | date: "%H:%M" }}</div>
+    	</div>
 
     </article>
   {% endfor %}
