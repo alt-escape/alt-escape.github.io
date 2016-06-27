@@ -84,7 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-# List of the Collections for the navigation
-collections:
-- cuisine

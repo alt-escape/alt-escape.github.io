@@ -3,7 +3,7 @@ layout: post
 date: 2016-05-10 18:16
 last-edit: 
 title: Laver la vaisselle avec un raton-laveur
-collections: [cuisine]
+categories:	[cuisine, salle-de-bain, toilettes]
 tags: [vaisselle, animaux, bicarbonate-de-soude]
 ---
 

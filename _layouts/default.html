@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
-
+  
   <body>
     <div class="wrapper-masthead">
       <div class="container container-masthead">
@@ -25,7 +25,12 @@
             </a>
           </div>
           <nav>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <ul class="site-nav">
+              {% for category in site.categories %}
+                <li><a href="/categories/{{ category | first }}/">{{ category | first | capitalize | replace: "-", " " }}</a></li>
+              {% endfor %}
+              <li><a href="{{ site.baseurl }}/about">About</a></li>
+            </ul>
           </nav>
         </header>
       </div>

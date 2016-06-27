@@ -2,6 +2,7 @@
 layout: post
 date: 2016-05-06 14:44
 title: Tarte aux rognons de sanglier et choux-rouges
+categories:	[salle-de-bain, jardin, toilettes]
 tags: [vaisselle]
 ---
 

@@ -65,4 +65,12 @@ nav {
     text-align: right;
     color: white;
   }
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+    }
+  }
 }

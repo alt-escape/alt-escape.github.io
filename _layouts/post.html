@@ -2,20 +2,6 @@
 layout: default
 ---
 
-<!-- Tags system without plugin -->
-{% assign post = page %}
-{% if post.tags.size > 0 %}
-  {% capture tags_content %}{% endcapture %}
-  {% for post_tag in post.tags %}
-    {% assign tag = site.data.tags[post_tag] %}
-    {% if tag %}
-      {% capture tags_content_temp %}{{ tags_content }}<a href="/tags/{{ tag.name }}/">{{ tag.name }}</a>{% if forloop.last == false %}{% endif %}{% endcapture %}
-      {% assign tags_content = tags_content_temp %}
-    {% endif %}
-  {% endfor %}
-{% else %}
-    {% assign tags_content = '' %}
-{% endif %}
 
 <!-- Post DOM -->
 <article class="post">
@@ -29,16 +15,20 @@ layout: default
   </div>
   <div class="post-metadata">
     {% if post.updates.size > 0 %}
-    <div class="post-updates">
-      <h1>Mises à jour</h1>
-      {% for update in post.updates %}
-      <p>{{ update.date | date: "%e %B %Y" }} - {{ update.date | date: "%H:%M" }} — {{ update.description }}</p>
-      {% endfor %}
-    </div>
+      <div class="post-updates">
+        <h1>Mises à jour</h1>
+        {% for update in post.updates %}
+          <p>{{ update.date | date: "%e %B %Y" }} - {{ update.date | date: "%H:%M" }} — {{ update.description }}</p>
+        {% endfor %}
+      </div>
     {% endif %}
     <div class="post-tags">
       <h1>Tags</h1>
-      <p>{{ tags_content }}</p>
+      <p>
+      {% for tag in page.tags %}
+        <a href="/tags/{{ tag }}/">{{ tag }}</a></li>
+      {% endfor %}
+      </p>
     </div>
   </div>
 </article>

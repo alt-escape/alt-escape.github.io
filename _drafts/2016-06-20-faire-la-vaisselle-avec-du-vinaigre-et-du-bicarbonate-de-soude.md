@@ -3,7 +3,7 @@ layout: 		post
 date: 			2016-06-20 10:48
 title: 			La vaisselle avec du vinaigre et du bicarbonate de soude
 subtitle: 	C'est facile, sain, écologique et économique
-categories:	[cuisine]
+categories:	[cuisine, salle-de-bain, jardin]
 tags: 			[vaisselle, vinaigre, bicarbonate-de-soude]
 updates: 
   - date:					2016-06-25 13:21
