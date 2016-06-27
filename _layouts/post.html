@@ -28,6 +28,17 @@ layout: default
     {{ content }}
   </div>
   <div class="post-metadata">
-    <p class="post-tags">{{ tags_content }}</p>
+    {% if post.updates.size > 0 %}
+    <div class="post-updates">
+      <h1>Mises à jour</h1>
+      {% for update in post.updates %}
+      <p>{{ update.date | date: "%e %B %Y" }} - {{ update.date | date: "%H:%M" }} — {{ update.description }}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <div class="post-tags">
+      <h1>Tags</h1>
+      <p>{{ tags_content }}</p>
+    </div>
   </div>
 </article>

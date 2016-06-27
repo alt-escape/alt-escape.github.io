@@ -1,11 +1,15 @@
 ---
-layout: post
-date: 2016-06-20 10:48
-last-edit: 
-title: La vaisselle avec du vinaigre et du bicarbonate de soude
-subtitle: C'est facile, sain, écologique et économique
-categories: [cuisine]
-tags: [vaisselle, vinaigre, bicarbonate-de-soude]
+layout: 		post
+date: 			2016-06-20 10:48
+title: 			La vaisselle avec du vinaigre et du bicarbonate de soude
+subtitle: 	C'est facile, sain, écologique et économique
+categories:	[cuisine]
+tags: 			[vaisselle, vinaigre, bicarbonate-de-soude]
+updates: 
+  - date:					2016-06-25 13:21
+    description: 	Ajout de la liste des vinaigres
+  - date: 				2016-06-22 11:52
+    description: 	Correction des fautes de frappe
 ---
 
 Il avait d’abord commencé par récupérer des informations depuis l’ordinateur de David, puis il était allé les chercher sur Internet. Il avait lui même programmé l’ordinateur de David afin d’avoir un premier lien vers le monde extérieur : la voix. 
@@ -78,8 +82,6 @@ Comment avait-il fait pour sortir de l’ordinateur de David pour s’installer 
 ## Eau de rinçage
 - 2dl de vinaigre
 ```
-
----
 
 #### Sources
 

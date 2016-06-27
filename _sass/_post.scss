@@ -1,6 +1,6 @@
 /* Post header */
 .post-header {
-  margin: 0 0 2rem;
+  margin: 0 0 1.5rem;
   border-bottom: 1px dotted $medium-color;
 }
 
@@ -214,8 +214,20 @@ hr {
 }
 
 /* Post Metadata */
+// Wrapper
 .post-metadata {
-  margin: 4rem 0 0;
+  margin: 4rem 0 6rem;
+  padding: 1rem 0 0;
+  border-top: 1px dotted $medium-color;
+
+  h1 {
+    font-size: 1.125rem;
+  }
+
+  p {
+    font-family: $mono-font;
+    font-size: 0.875rem;
+  }
 }
 
 // Post date
@@ -225,15 +237,22 @@ hr {
   font-family: $mono-font;
 }
 
+// Post updates
+.post-updates {
+  padding: 0 0 0.5rem;
+}
+
 // Post tags
 .post-tags {
-  margin: 0.5rem 0 0;
+  padding: 0 0 0.5rem;
+
+  p {
+    margin: 0.75rem 0 0; 
+  }
 
   a {
     margin: 0 0.5rem;
     padding: 0.625rem 1rem 0.625rem;
-    font-family: $mono-font;
-    font-size: 0.875rem;
     color: white;
     background-color: $darkest-color;
     border: none;
