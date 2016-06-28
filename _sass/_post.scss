@@ -275,11 +275,11 @@ hr {
 // Specify the color of the text selection
 ::-moz-selection {
   color: white;
-  background: $text-color;
+  background: $darkest-color;
 }
 ::selection {
   color: white;
-  background: $text-color;
+  background: $darkest-color;
 }
 
 .comments {

@@ -24,8 +24,8 @@
               <h2 class="site-description">{{ site.description }}</h2>
             </a>
           </div>
-          <nav>
-            <ul class="site-nav">
+          <nav class="site-nav">
+            <ul>
               {% for category in site.categories %}
                 <li><a href="/categories/{{ category | first }}/">{{ category | first | capitalize | replace: "-", " " }}</a></li>
               {% endfor %}
