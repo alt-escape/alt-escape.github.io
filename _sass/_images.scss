@@ -1,0 +1,19 @@
+/* Images */
+img {
+  max-width: 100%;
+}
+
+// Images captions style
+img + em {
+  display: block;
+  padding: 0 0 0.5rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}

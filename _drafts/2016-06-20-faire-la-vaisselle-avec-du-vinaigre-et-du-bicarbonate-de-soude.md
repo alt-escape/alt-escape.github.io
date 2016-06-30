@@ -25,7 +25,7 @@ Devant lui se déployait un [complexe informatique](http://www.google.com). Une 
 
 ## Le vinaigre blanc
 
-Il avait d’abord commencer par récupérer des informations depuis l’ordinateur de David, puis il était allé les chercher sur Internet. Il avait lui même programmé l’ordinateur de David afin d’avoir un premier lien vers le monde extérieur : la voix. 
+Il avait d’abord commencer par récupérer des informations depuis l’ordinateur de David, puis il était allé les chercher sur ```Internet```. Il avait lui même programmé l’ordinateur de David afin d’avoir un premier lien vers le monde extérieur : la voix. 
 
 ## Le vinaigre de cidre
 

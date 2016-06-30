@@ -9,3 +9,11 @@
 .clearfix:after {
     clear: both;
 }
+
+
+// Horizontal line
+hr {
+  margin: 2rem 0 0;
+  border: 0;
+  border-bottom: 1px dotted $medium-color;
+}
