@@ -1,16 +1,3 @@
-
-.highlight {
-  background-color: $lightest-color;
-  padding: 0.5rem 0.625rem;
-  margin:	0 0 1rem;
-  line-height: 1.4;
-  white-space: pre-line;
-
-  code {
-  	font-size: 1rem;
-  }
-}
-
 .highlight .c { color: $highlight-color--light-grey } /* Comment */
 .highlight .err { color: $highlight-color--grey } /* Error */
 .highlight .g { color: $highlight-color--grey } /* Generic */

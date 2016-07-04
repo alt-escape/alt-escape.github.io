@@ -4,27 +4,51 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $display-font;
   line-height: 1.4;
   font-weight: bold;
+
+  @include breakpoint-m {
+    padding: 0.75rem 0 0.375rem;
+  }
 }
 
 h1 {
   font-size: 1.5rem; // 24
+
+  @include breakpoint-m {
+    font-size: 1.375rem;
+  }
 }
 
 h2 {
   font-size: 1.375rem; // 22
+
+  @include breakpoint-m {
+    font-size: 1.25rem;
+  }
 }
 
 h3 {
   font-size: 1.25rem; // 20
+
+  @include breakpoint-m {
+    font-size: 1.125rem;
+  }
 }
 
 h4 {
   font-size: 1.125rem; // 18
+
+  @include breakpoint-m {
+    font-size: 1rem;
+  }
 }
 
 h5 {
   font-size: 1.125rem; // 18
   font-style: italic;
+
+  @include breakpoint-m {
+    font-size: 1rem;
+  }
 }
 
 h6 {
@@ -94,10 +118,6 @@ ul, ol {
 
   li {
     padding-top: 0.25rem;
-
-    @include breakpoint-xs {
-      padding-top: 0.25rem;
-    }
   }
 
   li:first-child, ul li, ol li {
@@ -136,22 +156,37 @@ blockquote {
   p {
     padding: 0;
   }
+
+  @include breakpoint-m {
+    margin: 0.5rem 0 0.5rem 1.25rem;
+    padding: 0 0 0 1.25rem;
+  }
 }
 
 /* Code */
+// Code elements inside text
 code {
   padding: 0.25rem 0.375rem;
   background-color: $lightest-color;
   font-family: $mono-font;
-  font-size: 1.125rem;
   letter-spacing: -0.8px;
 }
 
-pre {
+// Code blocks
+.highlight {
+  background-color: $lightest-color;
+  padding: 0.5rem 0.625rem;
+  margin: 0 0 1rem;
+  line-height: 1.4;
+  white-space: pre-line;
 
   code {
     padding: 0;
-    letter-spacing: none;
+    letter-spacing: -0.3px;
+
+    @include breakpoint-m {
+      font-size: 1rem;
+    }
   }
 }
 

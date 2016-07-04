@@ -1,13 +1,9 @@
 .wrapper-masthead {
   margin-bottom: 4rem;
   background-color: $darkest-color;
-  // border-bottom: 1px solid $lightest-color;
-}
 
-.masthead {
-
-  @include breakpoint-s {
-    text-align: center;
+  @include breakpoint-m {
+    margin-bottom: 3rem;
   }
 }
 
@@ -19,6 +15,13 @@
   a {
     cursor: pointer;
   }
+
+  @include breakpoint-l {
+    width: 30%;
+  }
+  @include breakpoint-m {
+    width: 20%;
+  }
 }
 
 .site-avatar {
@@ -27,10 +30,9 @@
   width: 40px;
   height: 40px;
 
-  @include breakpoint-s {
-    float: none;
-    display: block;
-    margin: 0 auto;
+  @include breakpoint-l {
+    width: 32px;
+    height: 32px;
   }
 }
 
@@ -40,6 +42,15 @@
   color: white;
   font-size: 1.125rem;
   line-height: 1.2;
+
+  @include breakpoint-l {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+  @include breakpoint-m {
+    line-height: 2;
+    font-weight: 500;
+  }
 }
 
 .site-description {
@@ -49,15 +60,18 @@
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.2;
+
+  @include breakpoint-l {
+    font-size: 0.875rem;
+    line-height: 1.1;
+  }
+  @include breakpoint-m {
+    display: none;
+  }
 }
 
 .site-nav {
   float: right;
-
-  @include breakpoint-s {
-    float: none;
-    display: block;
-  }
 
   ul {
     list-style: none;
@@ -93,6 +107,11 @@
           color: $medium-color;
           background: none;
           border: none;
+        }
+
+        @include breakpoint-l {
+          padding: 0 0.25rem;
+          line-height: 4rem;
         }
       }
     }

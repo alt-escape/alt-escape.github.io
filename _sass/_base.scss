@@ -17,17 +17,6 @@ body {
   line-height: 1.8;
   color: $text-color;
 
-  @include breakpoint-s {
-    font-size: 2rem;
-    line-height: 3.5rem;
-  }
-  @include breakpoint-xs {
-    font-size: 1.8rem;
-    line-height: 3.6rem;
-  }
-  @include breakpoint-xxs {
-    font-size: 1.6rem;
-    line-height: 2.8rem;
   }
 }
 
@@ -39,16 +28,11 @@ body {
 
 .container-masthead {
   max-width: 60rem;
-
-  @include breakpoint-m {
-    max-width: 40rem;
-  }
 }
 
 .container-main, .container-footer {
   max-width: 40rem;
 
   @include breakpoint-m {
-    max-width: 35rem;
   }
 }
