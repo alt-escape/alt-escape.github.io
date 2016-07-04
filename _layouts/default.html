@@ -41,8 +41,10 @@
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
+      <div class="container container-footer">
+        <footer>
+          <p>© {{ 'now' | date: "%Y" }} {{ site.name }} <a href="https://github.com/alt-escape/alt-escape.github.io/blob/master/LICENSE" target="_blank">MIT License</a></p>
+          <p class="util__float-right">Hosted on <a href="https://github.com/alt-escape/alt-escape.github.io" target="_blank">Github</a></p>
           {% include svg-icons.html %}
         </footer>
       </div>

@@ -45,7 +45,7 @@ body {
   }
 }
 
-.container-main {
+.container-main, .container-footer {
   max-width: 40rem;
 
   @include breakpoint-m {
