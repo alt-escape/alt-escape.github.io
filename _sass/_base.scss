@@ -17,6 +17,8 @@ body {
   line-height: 1.8;
   color: $text-color;
 
+  @include breakpoint-m {
+    font-size: 1.0625rem; // 17
   }
 }
 
@@ -34,5 +36,6 @@ body {
   max-width: 40rem;
 
   @include breakpoint-m {
+    max-width: 36rem;
   }
 }

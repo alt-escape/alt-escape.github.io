@@ -7,4 +7,8 @@
   p {
   	display: inline-block;
   }
+
+  @include breakpoint-m {
+    margin-top: 4rem;
+  }
 }
