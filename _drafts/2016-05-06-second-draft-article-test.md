@@ -5,9 +5,6 @@ title:			Être en bonne santé en mangeant de la boue
 subtitle:		
 categories:	[cuisine]
 tags:				[bicarbonate-de-soude]
-updates:
-  - date:					
-    description:	
 ---
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
 

@@ -5,9 +5,6 @@ title:			Tarte aux rognons de sanglier et choux-rouges
 subtitle:		
 categories:	[salle-de-bain, jardin, toilettes]
 tags:				[vaisselle]
-updates:
-  - date:					
-    description:	
 ---
 
 # Heading 1
