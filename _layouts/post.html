@@ -12,10 +12,10 @@ layout: default
     {{ content }}
   </div>
   <div class="post-metadata">
-    {% if post.updates.size > 0 %}
+    {% if page.updates.size > 0 %}
       <div class="post-updates">
         <h1>Mises à jour</h1>
-        {% for update in post.updates %}
+        {% for update in page.updates %}
           <p>{{ update.date | date: "%e %B %Y" }} - {{ update.date | date: "%H:%M" }} — {{ update.description }}</p>
         {% endfor %}
       </div>

@@ -1,10 +1,13 @@
 ---
-layout: post
-date: 2016-05-10 18:16
-last-edit: 
-title: Laver la vaisselle avec un raton-laveur
+layout:			post
+date:				2016-05-10 18:16
+title:			Laver la vaisselle avec un raton-laveur
+subtitle:		
 categories:	[cuisine, salle-de-bain, toilettes]
-tags: [vaisselle, animaux, bicarbonate-de-soude]
+tags:				[vaisselle, animaux, bicarbonate-de-soude]
+updates:
+  - date:					
+    description:	
 ---
 
 # Ceci est un article de test avec un très long titre de premier niveau pour tester le line-height des titres

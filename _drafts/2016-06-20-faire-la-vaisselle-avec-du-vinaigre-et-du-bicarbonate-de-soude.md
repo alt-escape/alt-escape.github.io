@@ -1,15 +1,19 @@
 ---
-layout: 		post
-date: 			2016-06-20 10:48
-title: 			La vaisselle avec du vinaigre et du bicarbonate de soude
-subtitle: 	C'est facile, sain, écologique et économique
+layout:			post
+date:				2016-06-20 10:48
+title:			La vaisselle avec du vinaigre et du bicarbonate de soude
+subtitle:		C'est facile, sain, écologique et économique
 categories:	[cuisine, salle-de-bain, jardin]
-tags: 			[vaisselle, vinaigre, bicarbonate-de-soude]
-updates: 
+tags:				[vaisselle, vinaigre, bicarbonate-de-soude]
+updates:
+  - date:					2016-07-18 12:40
+    description:	Correction du problème d'affichage des updates
+  - date:					2016-07-18 11:17
+    description:	Test pour afficher les updates
   - date:					2016-06-25 13:21
-    description: 	Ajout de la liste des vinaigres
-  - date: 				2016-06-22 11:52
-    description: 	Correction des fautes de frappe
+    description:	Ajout de la liste des vinaigres
+  - date:					2016-06-22 11:52
+    description:	Correction des fautes de frappe
 ---
 
 Il avait d’abord commencé par récupérer des informations depuis l’ordinateur de David, puis il était allé les chercher sur Internet. Il avait lui même programmé l’ordinateur de David afin d’avoir un premier lien vers le monde extérieur : la voix. 

@@ -1,9 +1,13 @@
 ---
-layout: post
-date: 2016-05-06 14:44
-title: Tarte aux rognons de sanglier et choux-rouges
+layout:			post
+date:				2016-05-06 14:44
+title:			Tarte aux rognons de sanglier et choux-rouges
+subtitle:		
 categories:	[salle-de-bain, jardin, toilettes]
-tags: [vaisselle]
+tags:				[vaisselle]
+updates:
+  - date:					
+    description:	
 ---
 
 # Heading 1
