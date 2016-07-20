@@ -29,13 +29,13 @@ body {
 }
 
 .container-masthead {
-  max-width: 60rem;
+  max-width: 60rem; // 960px
 }
 
 .container-main, .container-footer {
-  max-width: 40rem;
+  max-width: 40rem; // 640px
 
   @include breakpoint-m {
-    max-width: 36rem;
+    max-width: 36rem; // 576px
   }
 }
