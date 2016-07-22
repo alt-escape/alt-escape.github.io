@@ -1,7 +1,7 @@
 /* Post header */
 .post-header {
   margin: 0 0 1.5rem;
-  border-bottom: 1px dotted $medium-color;
+  border-bottom: 1px dashed $light-color;
 }
 
 /* Post title */
@@ -44,7 +44,7 @@
 .post-metadata {
   margin: 4rem 0 0;
   padding: 1rem 0 0;
-  border-top: 1px dotted $medium-color;
+  border-top: 1px dashed $medium-color;
 
   h1 {
     font-size: 1.125rem;
