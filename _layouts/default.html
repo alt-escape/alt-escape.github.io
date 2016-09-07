@@ -12,17 +12,17 @@
   
   <body>
     <!-- Header -->
-    <div class="wrapper-masthead">
-      <div class="container container-masthead">
+    <div class="wrapper__masthead">
+      <div class="container container__masthead">
         <header class="clearfix">
-          <div class="site-info">
+          <div class="site__info">
             <a href="{{ site.baseurl }}/">
-              <img class="site-avatar" src="/images/AltEscape_SiteHeader_40px_neg@3x.png">
-              <h1 class="site-name">{{ site.name }}</h1>
-              <h2 class="site-description">{{ site.description }}</h2>
+              <img class="site__avatar" src="/images/AltEscape_SiteHeader_40px_neg@3x.png">
+              <h1 class="site__name">{{ site.name }}</h1>
+              <h2 class="site__description">{{ site.description }}</h2>
             </a>
           </div>
-          <nav class="site-nav">
+          <nav class="site__nav">
             <ul>
               {% for category in site.categories %}
                 <li><a href="/categories/{{ category | first }}/">{{ category | first | capitalize | replace: "-", " " }}</a></li>
@@ -34,15 +34,15 @@
       </div>
     </div>
     <!-- Content -->
-    <div id="main" role="main" class="container container-main">
+    <div id="main" role="main" class="container container__main">
       {{ content }}
     </div>
     <!-- Footer -->
-    <div class="wrapper-footer">
-      <div class="container container-footer">
+    <div class="wrapper__footer">
+      <div class="container container__footer">
         <footer>
           <p>© {{ 'now' | date: "%Y" }} {{ site.name }} <a href="https://github.com/alt-escape/alt-escape.github.io/blob/master/LICENSE" target="_blank">MIT License</a></p>
-          <p class="util__float-right">Hosted on <a href="https://github.com/alt-escape/alt-escape.github.io" target="_blank">Github</a></p>
+          <p class="util--float-right">Hosted on <a href="https://github.com/alt-escape/alt-escape.github.io" target="_blank">Github</a></p>
           {% include svg-icons.html %}
         </footer>
       </div>

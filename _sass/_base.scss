@@ -28,11 +28,11 @@ body {
   width: 100%;
 }
 
-.container-masthead {
+.container__masthead {
   max-width: 60rem; // 960px
 }
 
-.container-main, .container-footer {
+.container__main, .container__footer {
   max-width: 40rem; // 640px
 
   @include breakpoint-m {

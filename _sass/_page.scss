@@ -1,11 +1,18 @@
-.wrapper-section {
+.wrapper__section {
 	margin: 0 0 3rem 0;
 }
 
-/* Page - Title */
-.page-title {
+/* Titles */
+.title {
 	padding: 0;
 	margin: 0 0 2rem 0;
   font-size: 1.125rem;
+}
+/* Page title */
+.title__page {
+  color: $text-color--light;
+}
+/* Section title */
+.title__section {
   color: $text-color--lighter;
 }

@@ -1,11 +1,11 @@
 /* Post header */
-.post-header {
+.header__post {
   margin: 0 0 1.5rem;
   border-bottom: 1px dashed $light-color;
 }
 
 /* Post title */
-.post-title {
+.title__post {
   padding: 0 0 0.25rem;
   line-height: 1.2;
   font-weight: bold;
@@ -33,7 +33,7 @@
 }
 
 /* Post subtitle */
-.post-subtitle {
+.subtitle__post {
   padding: 0 0 0.25rem;
   line-height: 1.4;
   font-weight: 500;
@@ -41,7 +41,7 @@
 
 /* Post Metadata */
 // Wrapper
-.post-metadata {
+.metadata__post {
   margin: 4rem 0 0;
   padding: 1rem 0 0;
   border-top: 1px dashed $medium-color;
@@ -57,7 +57,7 @@
 }
 
 // Post date
-.post-date {
+.date__post {
   padding: 0 0 1rem;
   font-family: $mono-font;
   font-size: 0.875rem;
@@ -65,12 +65,12 @@
 }
 
 // Post updates
-.post-updates {
+.updates__post {
   padding: 0 0 0.5rem;
 }
 
 // Post tags
-.post-tags {
+.tags__post {
   padding: 0 0 0.5rem;
 
   p {

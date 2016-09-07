@@ -3,17 +3,17 @@ layout: default
 ---
 <!-- Post DOM -->
 <article class="post">
-  <div class="post-header">
-    <h1 class="post-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
-    <h2 class="post-subtitle">{{ page.subtitle }}</h2>
-    <div class="post-date">{{ page.date | date: "%e %B %Y" }} - {{ page.date | date: "%H:%M" }}</div>
+  <div class="header__post">
+    <h1 class="title__post"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
+    <h2 class="subtitle__post">{{ page.subtitle }}</h2>
+    <div class="date__post">{{ page.date | date: "%e %B %Y" }} - {{ page.date | date: "%H:%M" }}</div>
   </div>
   <div class="entry">
     {{ content }}
   </div>
-  <div class="post-metadata">
+  <div class="metadata__post">
     {% if page.updates.size > 0 %}
-      <div class="post-updates">
+      <div class="updates__post">
         <h1>Mises à jour</h1>
         {% for update in page.updates %}
           <p>{{ update.date | date: "%e %B %Y" }} - {{ update.date | date: "%H:%M" }} — {{ update.description }}</p>
@@ -21,7 +21,7 @@ layout: default
       </div>
     {% endif %}
     {% if page.tags.size > 0 %}
-    <div class="post-tags">
+    <div class="tags__post">
       <h1>Tags</h1>
       <p>
       {% for tag in page.tags %}
