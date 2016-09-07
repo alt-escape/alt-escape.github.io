@@ -67,6 +67,10 @@
   p {
     font-family: $mono-font;
     font-size: 0.875rem;
+
+    @include breakpoint-s {
+      font-size: 0.75rem;
+    }
   }
 }
 
