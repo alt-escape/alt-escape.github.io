@@ -21,7 +21,7 @@ layout: default
 	<div class="post-tags">
 		<p>
 		{% capture tags %}
-		  {% for tag in site.tags limit:5 %}
+		  {% for tag in site.tags limit:6 %}
 		    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
 		  {% endfor %}
 		{% endcapture %}
