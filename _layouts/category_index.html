@@ -8,5 +8,5 @@ layout: default
 		{% include post-header.html %}
   {% endfor %}
 {% else %}
-  <p>Aucun post n'appartient à la catégorie {{ page.category }}</p>
+  <p>Aucun post n'appartient à la catégorie <strong>{{ page.category | capitalize | replace: "-", " " }}</strong></p>
 {% endif %}

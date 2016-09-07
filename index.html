@@ -2,6 +2,36 @@
 layout: default
 ---
 <!-- Index DOM -->
-{% for post in site.posts %}
-    {% include post-header.html %}
-{% endfor %}
+<!-- Section - Introduction -->
+<div class="wrapper-section">
+	<h1 class="page-title">Bienvenue</h1>
+	{% capture my_include %}{% include introduction.md %}{% endcapture %}
+	{{ my_include | markdownify }}
+</div>
+<!-- Section - Last 3 posts -->
+<div class="wrapper-section">
+	<h1 class="page-title">Posts récents</h1>
+	{% for post in site.posts limit:3 %}
+	    {% include post-header.html %}
+	{% endfor %}
+</div>
+<!-- Section - Most used tags -->
+<div class="wrapper-section">
+	<h1 class="page-title">Tags les plus utilisés</h1>
+	<div class="post-metadata">
+		<div class="post-tags">
+			<p>
+			{% capture tags %}
+			  {% for tag in site.tags limit:5 %}
+			    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+			  {% endfor %}
+			{% endcapture %}
+			{% assign sortedtags = tags | split:' ' | sort %}
+			{% for tag in sortedtags reversed %}
+			  {% assign tagitems = tag | split: '#' %}
+			  <a href="/tags/{{ tagitems[1] }}">{{ tagitems[1] }}({{ tagitems[2] }})</a>
+			{% endfor %}
+			</p>
+		</div>
+	</div>
+</div>
