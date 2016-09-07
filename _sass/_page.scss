@@ -1,5 +1,6 @@
-.wrapper__section {
-	margin: 0 0 3rem 0;
+.header__section {
+	margin: 4rem 0 0 0;
+	border-top: 1px dashed $medium-color;
 }
 
 /* Titles */
@@ -14,5 +15,6 @@
 }
 /* Section title */
 .title__section {
+	margin: 2rem 0 0.5rem;
   color: $text-color--lighter;
 }

@@ -3,20 +3,21 @@ layout: default
 ---
 <!-- Index DOM -->
 <h1 class="title title__page">Bienvenue</h1>
+
 <!-- Section - Introduction -->
-<div class="wrapper__section">
-	{% capture my_include %}{% include introduction.md %}{% endcapture %}
-	{{ my_include | markdownify }}
-</div>
+{% capture my_include %}{% include introduction.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
 <!-- Section - Last 3 posts -->
-<div class="wrapper__section">
+<div class="header__section">
 	<h1 class="title title__section">Posts récents</h1>
 	{% for post in site.posts limit:3 %}
 	    {% include post-header.html %}
 	{% endfor %}
 </div>
+
 <!-- Section - Most used tags -->
-<div class="wrapper__section">
+<div class="header__section">
 	<h1 class="title title__section">Tags les plus utilisés</h1>
 	<div class="tags__post">
 		<p>

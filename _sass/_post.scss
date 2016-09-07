@@ -40,22 +40,6 @@
 }
 
 /* Post Metadata */
-// Wrapper
-.metadata__post {
-  margin: 4rem 0 0;
-  padding: 1rem 0 0;
-  border-top: 1px dashed $medium-color;
-
-  h1 {
-    font-size: 1.125rem;
-  }
-
-  p {
-    font-family: $mono-font;
-    font-size: 0.875rem;
-  }
-}
-
 // Post date
 .date__post {
   padding: 0 0 1rem;
@@ -67,6 +51,11 @@
 // Post updates
 .updates__post {
   padding: 0 0 0.5rem;
+  
+  p {
+    font-family: $mono-font;
+    font-size: 0.875rem;
+  }
 }
 
 // Post tags
@@ -103,6 +92,6 @@
 }
 
 /* Comments */
-.comments {
+.comments__post {
   margin-top: 1rem;
 }

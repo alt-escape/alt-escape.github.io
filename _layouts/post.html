@@ -11,10 +11,10 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-  <div class="metadata__post">
+  <div class="header__section">
     {% if page.updates.size > 0 %}
       <div class="updates__post">
-        <h1>Mises à jour</h1>
+        <h1 class="title title__section">Mises à jour</h1>
         {% for update in page.updates %}
           <p>{{ update.date | date: "%e %B %Y" }} - {{ update.date | date: "%H:%M" }} — {{ update.description }}</p>
         {% endfor %}
@@ -22,7 +22,7 @@ layout: default
     {% endif %}
     {% if page.tags.size > 0 %}
     <div class="tags__post">
-      <h1>Tags</h1>
+      <h1 class="title title__section">Tags</h1>
       <p>
       {% for tag in page.tags %}
         <a href="/tags/{{ tag }}/">{{ tag }}</a>
