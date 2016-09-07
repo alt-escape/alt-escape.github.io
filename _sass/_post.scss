@@ -74,15 +74,19 @@
   padding: 0 0 0.5rem;
 
   p {
-    margin: 0.75rem 0 0; 
+    margin: 0.75rem 0 0;
+    font-family: $mono-font;
+    font-size: 0.875rem;
   }
 
   a {
+    display: inline-block;
+    margin: 0 0 0.5rem 0;
     padding: 0.625rem 1rem 0.625rem;
     color: white;
     background-color: $darkest-color;
     border: none;
-    word-break: break-all;
+    word-break: break-word;
 
     &:hover {
       color: $text-color;
