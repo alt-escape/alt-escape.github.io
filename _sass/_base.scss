@@ -20,6 +20,9 @@ body {
   @include breakpoint-m {
     font-size: 1.0625rem; // 17
   }
+  @include breakpoint-s {
+    font-size: 1rem; // 16
+  }
 }
 
 .container {
