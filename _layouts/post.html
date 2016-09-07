@@ -6,7 +6,11 @@ layout: default
   <div class="header__post">
     <h1 class="title__post"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
     <h2 class="subtitle__post">{{ page.subtitle }}</h2>
-    <div class="date__post">{{ page.date | date: "%e %B %Y" }} - {{ page.date | date: "%H:%M" }}</div>
+    <p class="informations__post">
+      {% for category in page.categories %}
+        <a href="/categories/{{ category }}/">{{ category | capitalize }}</a>
+      {% endfor %} - {{ page.date | date: "%e %B %Y" }}
+    </p>
   </div>
   <div class="entry">
     {{ content }}

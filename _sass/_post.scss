@@ -40,18 +40,30 @@
 }
 
 /* Post Metadata */
-// Post date
-.date__post {
+// Post informations (category, date)
+.informations__post {
   padding: 0 0 1rem;
   font-family: $mono-font;
   font-size: 0.875rem;
   line-height: 1.4;
+
+  a {
+    border: none;
+
+    &:hover {
+      border: none;
+    }
+
+    &:active {
+      border: none;
+    }
+  }
 }
 
 // Post updates
 .updates__post {
   padding: 0 0 0.5rem;
-  
+
   p {
     font-family: $mono-font;
     font-size: 0.875rem;
