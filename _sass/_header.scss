@@ -8,6 +8,9 @@
   @include breakpoint-xs {
     margin-bottom: 2rem;
   }
+  @include breakpoint-smallest {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .site__info {
@@ -162,7 +165,7 @@
         }
         @include breakpoint-xxs {
           line-height: 3rem;
-          padding: 0 0.1875rem;
+          padding: 0 0.25rem;
         }
 
         &:hover {
