@@ -68,7 +68,7 @@
     font-family: $mono-font;
     font-size: 0.875rem;
 
-    @include breakpoint-s {
+    @include breakpoint-m {
       font-size: 0.75rem;
     }
   }
@@ -83,7 +83,7 @@
     font-family: $mono-font;
     font-size: 0.875rem;
 
-    @include breakpoint-s {
+    @include breakpoint-m {
       font-size: 0.75rem;
     }
   }

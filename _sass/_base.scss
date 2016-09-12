@@ -17,11 +17,14 @@ body {
   line-height: 1.8;
   color: $text-color;
 
-  @include breakpoint-m {
+  @include breakpoint-l {
     font-size: 1.0625rem; // 17
   }
-  @include breakpoint-s {
+  @include breakpoint-m {
     font-size: 1rem; // 16
+  }
+  @include breakpoint-xxs {
+    font-size: 0.875rem; // 14
   }
 }
 
@@ -29,6 +32,10 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
   width: 100%;
+
+  @include breakpoint-xxs {
+    padding: 0 0.5rem;
+  }
 }
 
 .container__masthead {
@@ -38,7 +45,7 @@ body {
 .container__main, .container__footer {
   max-width: 40rem; // 640px
 
-  @include breakpoint-m {
+  @include breakpoint-l {
     max-width: 36rem; // 576px
   }
 }
