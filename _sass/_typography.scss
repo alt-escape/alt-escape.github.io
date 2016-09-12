@@ -138,6 +138,13 @@ ul, ol {
   padding-left: 2rem;
   line-height: 1.6;
 
+  @include breakpoint-m {
+    padding-left: 1.5rem;
+  }
+  @include breakpoint-xs {
+    padding-left: 1.25rem;
+  }
+
   ul, ol {
     color: $text-color--light;
 

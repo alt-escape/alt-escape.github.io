@@ -4,6 +4,6 @@
   <p class="informations__post">
 		{% for category in post.categories %}
 	    <a href="/categories/{{ category }}/">{{ category | capitalize }}</a>
-	  {% endfor %} - {{ post.date | date: "%e %B %Y" }}
+	  {% endfor %} - {% include date-post-french.html %}
   </p>
 </div>

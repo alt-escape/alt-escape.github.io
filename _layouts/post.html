@@ -9,7 +9,7 @@ layout: default
     <p class="informations__post">
       {% for category in page.categories %}
         <a href="/categories/{{ category }}/">{{ category | capitalize }}</a>
-      {% endfor %} - {{ page.date | date: "%e %B %Y" }}
+      {% endfor %} - {% include date-page-french.html %}
     </p>
   </div>
   <div class="entry">
@@ -20,7 +20,7 @@ layout: default
       <div class="updates__post">
         <h1 class="title title__section">Mises à jour</h1>
         {% for update in page.updates %}
-          <p>{{ update.date | date: "%e %B %Y" }} - {{ update.date | date: "%H:%M" }} — {{ update.description }}</p>
+          <p>{% include date-update-french.html %} - {{ update.date | date: "%H:%M" }} — {{ update.description }}</p>
         {% endfor %}
       </div>
     {% endif %}
