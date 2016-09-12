@@ -2,6 +2,10 @@
 .header__post {
   margin: 0 0 1.5rem;
   border-bottom: 1px dashed $light-color;
+
+  @include breakpoint-xxs {
+    margin: 0 0 1rem;
+  }
 }
 
 /* Post title */
@@ -46,6 +50,10 @@
   font-family: $mono-font;
   font-size: 0.875rem;
   line-height: 1.4;
+
+  @include breakpoint-xxs {
+    font-size: 0.8125rem;
+  }
 
   a {
     border: none;

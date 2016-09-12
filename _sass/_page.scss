@@ -1,6 +1,13 @@
 .header__section {
 	margin: 4rem 0 0 0;
 	border-top: 1px dashed $medium-color;
+
+	@include breakpoint-l {
+		margin: 3rem 0 0 0;
+  }
+  @include breakpoint-xs {
+		margin: 2rem 0 0 0;
+  }
 }
 
 /* Titles */
@@ -8,6 +15,10 @@
 	padding: 0;
 	margin: 0 0 2rem 0;
   font-size: 1.125rem;
+
+  @include breakpoint-xs {
+		margin-bottom: 1rem;
+  }
 }
 /* Page title */
 .title__page {
@@ -17,4 +28,8 @@
 .title__section {
 	margin: 2rem 0 0.5rem;
   color: $text-color--lighter;
+
+  @include breakpoint-xs {
+		margin-top: 1rem;
+  }
 }

@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6 {
   @include breakpoint-m {
     padding: 0.625rem 0 0.25rem;
   }
+  @include breakpoint-xxs {
+    padding: 0.5rem 0 0.125rem;
+  }
 }
 
 h1 {
@@ -22,6 +25,9 @@ h1 {
   @include breakpoint-m {
     font-size: 1.25rem;
   }
+  @include breakpoint-xxs {
+    font-size: 1.125rem;
+  }
 }
 
 h2 {
@@ -32,6 +38,9 @@ h2 {
   }
   @include breakpoint-m {
     font-size: 1.125rem;
+  }
+  @include breakpoint-xxs {
+    font-size: 1rem;
   }
 }
 
@@ -178,13 +187,21 @@ blockquote {
   font-style: italic;
   border-left: 1px solid $medium-color;
 
-  p {
-    padding: 0;
-  }
-
   @include breakpoint-l {
     margin: 0.5rem 0 0.5rem 1.25rem;
     padding: 0 0 0 1.25rem;
+  }
+  @include breakpoint-s {
+    margin: 0.25rem 0 0.25rem 1rem;
+    padding: 0 0 0 1rem;
+  }
+  @include breakpoint-xxs {
+    margin: 0.25rem 0 0.25rem 0.5rem;
+    padding: 0 0 0 0.5rem;
+  }
+
+  p {
+    padding: 0;
   }
 }
 
@@ -195,6 +212,10 @@ code {
   background-color: $lightest-color;
   font-family: $mono-font;
   letter-spacing: -0.8px;
+
+  @include breakpoint-m {
+    padding: 0.125rem 0.25rem;
+  }
 }
 
 // Code blocks
@@ -208,10 +229,6 @@ code {
   code {
     padding: 0;
     letter-spacing: -0.3px;
-
-    @include breakpoint-l {
-      font-size: 1rem;
-    }
   }
 }
 

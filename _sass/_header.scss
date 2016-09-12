@@ -5,6 +5,9 @@
   @include breakpoint-l {
     margin-bottom: 3rem;
   }
+  @include breakpoint-xs {
+    margin-bottom: 2rem;
+  }
 }
 
 .site__info {
