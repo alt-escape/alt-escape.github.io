@@ -1,7 +1,28 @@
 /* Breakpoints */
-// 
+// 320px
+@mixin breakpoint-xxxxs {
+  @media screen and (max-width: 20em) {
+    @content;
+  }
+}
+
+// 432px
+@mixin breakpoint-xxxs {
+  @media screen and (max-width: 27em) {
+    @content;
+  }
+}
+
+// 512px
+@mixin breakpoint-xxs {
+  @media screen and (max-width: 32em) {
+    @content;
+  }
+}
+
+// 576px
 @mixin breakpoint-xs {
-  @media screen and (max-width: 25em) {
+  @media screen and (max-width: 36em) {
     @content;
   }
 }
