@@ -16,14 +16,14 @@ updates:
     description:	Correction des fautes de frappe
 ---
 
-Il avait d’abord commencé par récupérer des informations depuis l’ordinateur de David, puis il était allé les chercher sur Internet. Il avait lui même programmé l’ordinateur de David afin d’avoir un premier lien vers le monde extérieur : la voix. 
+Il avait d’abord commencé par récupérer des informations depuis l’ordinateur de David, puis il était allé les chercher sur Internet. Il avait lui même programmé l’ordinateur de David afin d’avoir un premier lien vers le monde extérieur : la voix. 😀
 
 # Le vinaigre
 
 ![Bouteille de vinaigre de cidre avec des pommes](/images/posts/vinaigre_de_cidre.jpg "Vinaigre de cidre")
 *Vinaigre de cidre - <a href="http://mangiarebuono.it/wp-content/uploads/2014/01/sidro.jpg" target="_blank">source</a>*
 
-L’ascenseur démarra tout seul après que la porte se soit fermée. Il descendait. Il n’arrêtait pas de descendre. Puis, il s’arrêta enfin. La porte s’ouvrit. Et David eut la stupeur de sa vie. 
+L’ascenseur démarra tout seul après que la porte se soit fermée. Il descendait. Il n’arrêtait pas de descendre. Puis, il s’arrêta enfin. La porte s’ouvrit. 🍑 💦 🍌 Et David eut la stupeur de sa vie. 
 
 Devant lui se déployait un [complexe informatique](http://www.google.com). Une vingtaine de personnes se déplaçaient d’un poste à l’autre regardant au passage ***les écrans géants muraux*** situés au fond de la salle. Il y avait bien une cinquantaine d’ordinateurs, cinq écrans géants et, situé entre les écrans géants et les ordinateurs, une machinerie impressionnante.
 
