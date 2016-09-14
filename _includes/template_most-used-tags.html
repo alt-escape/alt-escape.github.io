@@ -1,0 +1,17 @@
+<div class="header__section">
+	<h1 class="title title__section">Tags les plus utilisés</h1>
+	<div class="tags__post">
+		<p>
+		{% capture tags %}
+		  {% for tag in site.tags limit:6 %}
+		    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+		  {% endfor %}
+		{% endcapture %}
+		{% assign sortedtags = tags | split:' ' | sort %}
+		{% for tag in sortedtags reversed %}
+		  {% assign tagitems = tag | split: '#' %}
+		  <a href="/tags/{{ tagitems[1] }}">{{ tagitems[1] }} ({{ tagitems[2] }})</a>
+		{% endfor %}
+		</p>
+	</div>
+</div>

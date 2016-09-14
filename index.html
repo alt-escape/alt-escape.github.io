@@ -5,32 +5,11 @@ layout: default
 <h1 class="title title__page">Bienvenue</h1>
 
 <!-- Section - Introduction -->
-{% capture my_include %}{% include introduction.md %}{% endcapture %}
+{% capture my_include %}{% include content_introduction.md %}{% endcapture %}
 {{ my_include | markdownify }}
 
-<!-- Section - Last 3 posts -->
-<div class="header__section">
-	<h1 class="title title__section">Posts récents</h1>
-	{% for post in site.posts limit:3 %}
-	    {% include post-header.html %}
-	{% endfor %}
-</div>
+<!-- Section - Last posts -->
+{% include template_last-posts.html %}
 
 <!-- Section - Most used tags -->
-<div class="header__section">
-	<h1 class="title title__section">Tags les plus utilisés</h1>
-	<div class="tags__post">
-		<p>
-		{% capture tags %}
-		  {% for tag in site.tags limit:6 %}
-		    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-		  {% endfor %}
-		{% endcapture %}
-		{% assign sortedtags = tags | split:' ' | sort %}
-		{% for tag in sortedtags reversed %}
-		  {% assign tagitems = tag | split: '#' %}
-		  <a href="/tags/{{ tagitems[1] }}">{{ tagitems[1] }} ({{ tagitems[2] }})</a>
-		{% endfor %}
-		</p>
-	</div>
-</div>
+{% include template_most-used-tags.html %}

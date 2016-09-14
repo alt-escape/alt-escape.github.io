@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>æ - {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    {% include meta.html %}
+    {% include data_meta.html %}
   </head>
   
   <body>
@@ -38,10 +38,10 @@
         <footer>
           <p>© {{ 'now' | date: "%Y" }} {{ site.name }} <a href="https://github.com/alt-escape/alt-escape.github.io/blob/master/LICENSE" target="_blank">MIT License</a></p>
           <p class="util--float-right">Hosted on <a href="https://github.com/alt-escape/alt-escape.github.io" target="_blank">Github</a></p>
-          {% include svg-icons.html %}
+          {% include plugin_svg-icons.html %}
         </footer>
       </div>
     </div>
-    {% include analytics.html %}
+    {% include data_analytics.html %}
   </body>
 </html>
