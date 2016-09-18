@@ -119,6 +119,43 @@
   }
 }
 
+// Post share buttons
+.share__post {
+  padding: 0 0 0.5rem;
+
+  p {
+    margin: 0.75rem 0 0;
+    font-family: $mono-font;
+    font-size: 0.875rem;
+
+    @include breakpoint-m {
+      font-size: 0.75rem;
+    }
+  }
+
+  a {
+    display: inline-block;
+    margin: 0 0 0.5rem 0;
+    padding: 0.625rem 1rem 0.625rem;
+    color: $text-color;
+    background-color: $light-color;
+    border: none;
+    word-break: break-word;
+
+    &:hover {
+      color: $text-color--light;
+      background-color: $lighter-color;
+      border: none;
+    }
+
+    &:active {
+      color: $text-color--lighter;
+      background-color: $lightest-color;
+      border: none;
+    }
+  }
+}
+
 /* Comments */
 .comments__post {
   margin-top: 1rem;
