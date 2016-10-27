@@ -21,7 +21,7 @@
             <ul>
               <li><a href="{{ site.baseurl }}/about">About</a></li>
               {% for category in site.categories %}
-                <li><a href="/categories/{{ category | first }}/">{{ category | first | capitalize | replace: "-", " " }}</a></li>
+                <li><a href="/categories/{{ category | first }}/">{{ category | first | capitalize | replace: "-", " " }}</a></li>
               {% endfor %}
             </ul>
           </nav>
