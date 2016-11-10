@@ -16,6 +16,21 @@
   }
 
   p {
-  	display: inline-block;
+    display: inline-block;
+
+    @include breakpoint-xxs {
+      display: block;
+      text-align: center;
+    }
+
+    &:nth-child(2) {
+      float: right;
+      text-align: right;
+
+      @include breakpoint-xxs {
+        float: none;
+        text-align: center;
+      }
+    }
   }
 }

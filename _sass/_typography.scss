@@ -115,6 +115,10 @@ a[target="_blank"]::after {
   content: "↗";
   padding-left: 0.125rem;
 }
+.share--post a[target="_blank"]::after {
+  content: none;
+  padding-left: 0;
+}
 
 p, li, ul, ol {
 
