@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-[contact.altescape@gmail.com](mailto:contact.altescape@gmail.com)
+[altescape@yandex.com](mailto:altescape@yandex.com)
