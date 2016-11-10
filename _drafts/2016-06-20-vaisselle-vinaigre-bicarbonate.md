@@ -21,11 +21,11 @@ Il avait d’abord commencé par récupérer des informations depuis l’ordinat
 # Le vinaigre
 
 ![Bouteille de vinaigre de cidre avec des pommes](/images/posts/vinaigre_de_cidre.jpg "Vinaigre de cidre")
-*Vinaigre de cidre - <a href="http://mangiarebuono.it/wp-content/uploads/2014/01/sidro.jpg" target="_blank">source</a>*
+*Vinaigre de cidre - {% include template_link-target-blank.html href="http://mangiarebuono.it/wp-content/uploads/2014/01/sidro.jpg" txt="Source" %}*
 
 L’ascenseur démarra tout seul après que la porte se soit fermée. Il descendait. Il n’arrêtait pas de descendre. Puis, il s’arrêta enfin. La porte s’ouvrit. 🍑 💦 🍌 Et David eut la stupeur de sa vie. 
 
-Devant lui se déployait un [complexe informatique](http://www.google.com). Une vingtaine de personnes se déplaçaient d’un poste à l’autre regardant au passage ***les écrans géants muraux*** situés au fond de la salle. Il y avait bien une cinquantaine d’ordinateurs, cinq écrans géants et, situé entre les écrans géants et les ordinateurs, une machinerie impressionnante.
+Devant lui se déployait un {% include template_link-target-blank.html href="https://www.google.com" txt="complexe informatique" %}. Une vingtaine de personnes se déplaçaient d’un poste à l’autre regardant au passage ***les écrans géants muraux*** situés au fond de la salle. Il y avait bien une cinquantaine d’ordinateurs, cinq écrans géants et, situé entre les écrans géants et les ordinateurs, une machinerie impressionnante.
 
 ## Le vinaigre blanc
 
@@ -56,7 +56,7 @@ Il pouvait entendre la voix de David, mais ne la comprenait pas. C’est alors q
 # Le bicarbonate de soude
 
 ![Bocal de bicarbonate de soude avec cuillère](/images/posts/bicarbonate_de_soude.jpg "Bicarbonate de soude")
-*Bicarbonate de soude - <a href="http://www.bioalaune.com/sites/default/files/bicarbonate_de_soude.jpg" target="_blank">source</a>*
+*Bicarbonate de soude - {% include template_link-target-blank.html href="http://www.bioalaune.com/sites/default/files/bicarbonate_de_soude.jpg" txt="Source" %}*
 
 D’ailleurs, le Dr. ne savait pas vraiment comment son processeur pouvait fonctionner. D’une architecture trop complexe, le Dr. s’était reposé sur les tests effectués. Tests très légèrement modifiés par Prélude afin de cacher certaines fonctions du processeur.
 
@@ -91,9 +91,9 @@ Comment avait-il fait pour sortir de l’ordinateur de David pour s’installer 
 
 ##### Vinaigre
 
-- <a href="https://fr.wikipedia.org/wiki/Vinaigre" target="_blank">Vinaigre - Wikipedia</a>
-- <a href="https://fr.wikipedia.org/wiki/Cidre" target="_blank">Cidre - Wikipedia</a>
+- {% include template_link-target-blank.html href="https://fr.wikipedia.org/wiki/Vinaigre" txt="Vinaigre - Wikipedia" %}
+- {% include template_link-target-blank.html href="https://fr.wikipedia.org/wiki/Cidre" txt="Cidre - Wikipedia" %}
 
 ##### Bicarbonate de sodium
 
-- <a href="https://fr.wikipedia.org/wiki/Bicarbonate_de_sodium" target="_blank">Bicarbonate de sodium - Wikipedia</a>
+- {% include template_link-target-blank.html href="https://fr.wikipedia.org/wiki/Bicarbonate_de_sodium" txt="Bicarbonate de sodium - Wikipedia" %}
