@@ -119,6 +119,18 @@
   }
 }
 
+// Post copyright
+.copyright__post {
+
+  margin-top: 1rem;
+
+  p {
+    font-size: 0.8125rem;
+    color: $text-color--lighter;
+    text-align: center;
+  }
+}
+
 // Post share buttons
 .share__post {
   padding: 0 0 0.5rem;
@@ -152,6 +164,10 @@
       color: $text-color--lighter;
       background-color: $lightest-color;
       border: none;
+    }
+    &::after {
+      content: none;
+      padding-left: 0;
     }
   }
 }

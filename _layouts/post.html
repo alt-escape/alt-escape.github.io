@@ -33,6 +33,7 @@ layout: default
       {% endfor %}
       </p>
     </div>
+    {% endif %}
     <div class="share__post">
       <h1 class="title title__section">Partager</h1>
       <p>
@@ -43,6 +44,8 @@ layout: default
         <a href="mailto:?subject={{ site.name }}%20-%20{{ page.title }}&body={{ page.title }}:%20{{ site.baseurl }}{{ page.url }}" title="Envoyer par email">Email</a>
       </p>
     </div>
-    {% endif %}
+    <div class="copyright__post">
+      <p>Licence Creative Commons BY-NC-SA<br/>Attribution, Pas d'utilisation commerciale, Partage des conditions initiales à l'identique<br/><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank">Licence complète (Anglais)</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/fr/" target="_blank">Licence résumée (Français)</a></p>
+    </div>
   </div>
 </article>
