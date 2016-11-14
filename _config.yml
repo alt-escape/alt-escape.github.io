@@ -87,3 +87,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# To be able to access the server with other devices (uncomment "host:…")
+# Simply go to <server-device-IP-adress>:4000 on any device browser
+# !this allow anyone on the network to access the server because it binds server to all available IPs!
+host: 0.0.0.0
