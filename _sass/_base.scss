@@ -32,14 +32,14 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
   width: 100%;
-
-  @include breakpoint-xxs {
-    padding: 0 0.5rem;
-  }
 }
 
 .container__masthead {
   max-width: 60rem; // 960px
+
+  @include breakpoint-xxs {
+    padding: 0 0.5rem;
+  }
 }
 
 .container__main, .container__footer {
