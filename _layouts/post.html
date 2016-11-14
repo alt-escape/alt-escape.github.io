@@ -37,11 +37,11 @@ layout: default
     <div class="share__post">
       <h1 class="title title__section">Partager</h1>
       <p>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.baseurl }}{{ page.url }}&t={{ page.title }}%20-%20{{ site.name }}" title="Partager sur Facebook" target="_blank">Facebook</a>
-        <a href="https://twitter.com/intent/tweet?source={{ site.baseurl }}{{ page.url }}&text={{ page.title }}:%20{{ site.baseurl }}{{ page.url }}" target="_blank" title="Tweet">Twitter</a>
-        <a href="http://www.tumblr.com/share?v=3&u={{ site.baseurl }}{{ page.url }}&t={{ page.title }}%20-%20{{ site.name }}" target="_blank" title="Poster sur Tumblr">Tumblr</a>
-        <a href="http://pinterest.com/pin/create/button/?url={{ site.baseurl }}{{ page.url }}&description={{ page.title }}%20-%20{{ site.name }}" target="_blank" title="Épingler sur Pinterest">Pinterest</a>
-        <a href="mailto:?subject={{ site.name }}%20-%20{{ page.title }}&body={{ page.title }}:%20{{ site.baseurl }}{{ page.url }}" title="Envoyer par email">Email</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://{{ site.url }}{{ page.url }}&title={{ page.title }}%20-%20{{ site.name }}" title="Partager sur Facebook" target="_blank">Facebook</a>
+        <a href="https://twitter.com/intent/tweet?source=https://{{ site.url }}{{ page.url }}&text={{ page.title }}:%20https://{{ site.url }}{{ page.url }}" target="_blank" title="Tweet">Twitter</a>
+        <a href="http://www.tumblr.com/share?v=3&u=https://{{ site.url }}{{ page.url }}&t={{ page.title }}%20-%20{{ site.name }}" target="_blank" title="Poster sur Tumblr">Tumblr</a>
+        <a href="http://pinterest.com/pin/create/button/?url=https://{{ site.url }}{{ page.url }}&description={{ page.title }}%20-%20{{ site.name }}" target="_blank" title="Épingler sur Pinterest">Pinterest</a>
+        <a href="mailto:?subject={{ site.name }}%20-%20{{ page.title }}&body={{ page.title }}:%20https://{{ site.url }}{{ page.url }}" title="Envoyer par email">Email</a>
       </p>
     </div>
     <div class="copyright__post">
