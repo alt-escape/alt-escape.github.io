@@ -1,7 +1,7 @@
 ---
 layout:			post
-date:				2016-11-21 10:00
-title:			Test article
+date:				2016-11-21 11:00
+title:			Test article 2
 subtitle:		A test article to try RSS feed
 categories:	[alimentation, hygiène, ménage, santé, autres]
 tags:				[vaisselle, organique, biodégradable]
